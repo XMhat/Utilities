@@ -1,0 +1,32 @@
+#include <winver.h>                    // For version data
+#include <winuser.rh>                  // For manifest id's
+
+#define VS_MAJOR                     1 // Major version of program
+#define VS_MINOR                     0 // Minor version of program
+#define VS_BUILD                     0 // Build version of program
+#define VS_REVISION                  0 // Revision of version of program
+
+1 ICON SW.ICO
+
+1 VERSIONINFO
+PRODUCTVERSION VS_MAJOR,VS_MINOR,VS_BUILD,VS_REVISION
+FILEVERSION VS_MAJOR,VS_MINOR,VS_BUILD,VS_REVISION
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "08090000"
+    {
+      VALUE "CompanyName", "Mhat"
+      VALUE "FileDescription", "SimpleWatch"
+      VALUE "FileVersion", "Windows® 4.0"
+      VALUE "LegalCopyright", "CC0 1.0 Universal licence"
+      VALUE "OriginalFilename", "SW.EXE"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0809 0x0000
+  }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>MS-Design</string>
+	<key>Builder Version</key>
+	<string>8536.26.14</string>
+	<key>CFBundleDisplayName</key>
+	<string>White on Black</string>
+	<key>CFBundleIdentifier</key>
+	<string>msdesign.wob</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>CFBundleVersion</key>
+	<string>1.2</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>globals.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>toggle</string>
+				<key>Image</key>
+				<string>Icon-128.png</string>
+				<key>Label</key>
+				<string>White on Black</string>
+				<key>Palette Label</key>
+				<string>Toggle White-on-Black ON or OFF</string>
+				<key>Tool Tip</key>
+				<string>WoB</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>White on Black Stylesheet</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://github.com/xmhat/wob</string>
+</dict>
+</plist>
